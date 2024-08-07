@@ -1,0 +1,5 @@
+<h1><%= @restaurant.name %></h1>
+<p><%= @restaurant.category %> - <%= @restaurant.average %>/5</p>
+<p><%= @restaurant.address %></p>
+<%= render @reviews %>
+<%= link_to "Back to index", restaurants_path %>
